@@ -1,23 +1,20 @@
-const gpa = 10;
+const myMark = -9;
+const passmark = 50;
 
 const exp = 70;
-const dist = 85;
-const avg = 50;
+const dist = 75;
 const fail = 49;
 const dnw = 0;
 
 
-if(gpa === avg){
-    console.log("You passed with an average of:  " + gpa);
-}else if(gpa <= fail){
-    console.log("Try again next semester")
-}else if(gpa >= dist){
+if(myMark >= passmark && myMark < exp){
+    console.log("You passed:  " + myMark);
+}else if((myMark < passmark) && (myMark> dnw)){
+    console.log("Fail")
+}else if(myMark >= dist && myMark >= 100){
     console.log("You passed with distinction 🌟" )
-}else if(gpa <= exp){
-    console.log("You got exempted with a mark of: " + gpa)
-}else if(gpa == dnw){
+}else if(myMark >= exp && myMark < dist){
+    console.log("You got exempted with a mark of: " + myMark)
+}else{
     console.log('Did not write')
-}
-else {
-    console.log("You missed the point with: " + gpa);
 }
