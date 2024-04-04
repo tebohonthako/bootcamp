@@ -35,4 +35,10 @@ switch(operator){
     results = num1 / num2;
     console.log(`${num1} + ${num2} = ${results}`);
     break;
+
+    //Formula for exponents
+    case '**':
+    results = num1 ** num2;
+    console.log(`${num1} + ${num2} = ${results}`);
+    break;
 }
