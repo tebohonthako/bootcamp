@@ -1,4 +1,4 @@
-const myMark = -9;
+const myMark = 10;
 const passmark = 50;
 
 const exp = 70;
@@ -11,7 +11,7 @@ if(myMark >= passmark && myMark < exp){
     console.log("You passed:  " + myMark);
 }else if((myMark < passmark) && (myMark> dnw)){
     console.log("Fail")
-}else if(myMark >= dist && myMark >= 100){
+}else if(myMark >= dist && myMark <= 100){
     console.log("You passed with distinction 🌟" )
 }else if(myMark >= exp && myMark < dist){
     console.log("You got exempted with a mark of: " + myMark)
