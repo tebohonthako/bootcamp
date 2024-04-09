@@ -29,4 +29,5 @@ function showMovie(){
     }
 }
 showMovie();
+showMovie();
 
