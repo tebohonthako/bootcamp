@@ -8,8 +8,8 @@
     height: 100vh;
     font-family: sans-serif;
     padding: 10em 10em;
-    background: url(https://images.pexels.com/photos/1929561/pexels-photo-1929561.jpeg?cs=srgb&dl=pexels-tobias-aeppli-1929561.jpg&fm=jpg);
-    opacity: 0.5;
+    background: url(https://images.pexels.com/photos/844297/pexels-photo-844297.jpeg);
+    opacity: 0.9;
     background-position: center;
     background-repeat: no-repeat;
     background-position: 100% 20%;
@@ -32,6 +32,8 @@
     line-height: 1.5;
     transform: translatey(-5%);
     transition: transform 0.5s;
+    display: block;
+    margin: 0;
     }
     .glass-1 {
     width: 500px;
@@ -56,6 +58,7 @@
     .glass h2 {
     font-size: 1rem;
     margin-top: 20px;
+    text-align: center;
     }
     .input {
     width: 100%;

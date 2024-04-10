@@ -1,7 +1,9 @@
 function talk()
+
 {
+    
     var know = {
-        "Hello?" : "Hey there!",
+        "Hello?" : "Hey there! 👋🏾",
         "Who are you" : "My name is Alice",
         "How are you" : "I'm Good",
         "What can i do for you?" : "Give us a follow and a like",
@@ -18,7 +20,7 @@ function talk()
       document.getElementById('chatLog').innerHTML = know[user] + "<br>"
 
     }else{
-        document.getElementById('chatLog').innerHTML = "sorry i dont understand";
+        document.getElementById('chatLog').innerHTML = "sorry I dont understand";
     }
 }
 
